@@ -1,0 +1,24 @@
+{
+  "name": "simon-staszkiewicz-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "adm-zip": "^0.5.5",
+    "aws-sdk": "^2.913.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "push": "node push.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stasmo/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stasmo/resume/issues"
+  },
+  "homepage": "https://github.com/Stasmo/resume#readme"
+}
