@@ -35,7 +35,10 @@ async function push() {
                 Key: htmlFileName,
                 Body: fs.readFileSync(htmlFileName)
             }).promise(),
-        ]);
+        ]).catch(e => {
+            console.error(e)
+            process.exit(1)
+        });
     });
 }
 
