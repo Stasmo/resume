@@ -1,4 +1,4 @@
-# Simon Staszkiewicz - DevOps
+# Simon Staszkiewicz
 - [Background](#background)
 - [Education](#education)
 - [Skills and tools](#skills-and-tools)
