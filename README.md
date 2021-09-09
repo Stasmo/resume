@@ -1,4 +1,4 @@
-# Simon Staszkiewicz Resume
+# Simon Staszkiewicz Résumé
 
 [![Build Status](https://travis-ci.com/Stasmo/resume.svg?branch=master)](https://travis-ci.com/Stasmo/resume)
 
