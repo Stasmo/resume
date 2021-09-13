@@ -14,18 +14,22 @@ async function push() {
     zip.addLocalFile(docFileName);
     zip.addLocalFile(htmlFileName);
     zip.toBuffer(async zipBuffer => {
+        let pushAll = (zipLocation, docLocation, htmlLocation) => {
+            return [
+                pushToS3(zipLocation, zipBuffer),
+                pushToS3(docLocation, fs.readFileSync(docFileName)),
+                pushToS3(htmlLocation, fs.readFileSync(htmlFileName)),
+            ]
+        }
         let promises = [
-            pushToS3(zipName, zipBuffer),
-            pushToS3(docFileName, fs.readFileSync(docFileName)),
-            pushToS3(htmlFileName, fs.readFileSync(htmlFileName)),
+            ...pushAll(zipName, docFileName, htmlFileName),
+            ...pushAll(`resume/latest/${zipName}`, `resume/latest/${docFileName}`, `resume/latest/${htmlFileName}`),
         ]
 
         if (gitCommit) {
             promises = [
                 ...promises,
-                pushToS3(`${gitCommit}/${zipName}`, zipBuffer),
-                pushToS3(`${gitCommit}/${docFileName}`, fs.readFileSync(docFileName)),
-                pushToS3(`${gitCommit}/${htmlFileName}`, fs.readFileSync(htmlFileName)),
+                ...pushAll(`resume/${gitCommit}/${zipName}`, `resume/${gitCommit}/${docFileName}`, `resume/${gitCommit}/${htmlFileName}`),
             ]
         }
 
