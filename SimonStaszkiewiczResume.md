@@ -29,7 +29,7 @@ Comfortable with EC2, VPC, S3, IAM, DynamoDB, Lambda, SQS, SNS and more.
 - used terraform and ansible to launch first cloud app as primary SRE
 - now migrating that app to kubernetes
 - designed and developed automation in ansible used to deploy flagship application over 20,000 times in the past year
-- designed and wrote an internal javascript application used daily by about 80% of the organization to self-manage
+- designed and wrote an internal Vue/Node application used daily by about 80% of the organization to self-manage
   various AWS services such as EC2 and S3, view billing information and manage vault secrets
 
 ### Software Developer at Electronic Arts - September 2013 to June 2016
