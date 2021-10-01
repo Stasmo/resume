@@ -37,7 +37,7 @@ Comfortable with EC2, VPC, S3, IAM, DynamoDB, Lambda, SQS, SNS and more.
 - hired as a test engineer in the QA department
 - joined the web development platform team a year later
 - worked with selenium to write automated tests for various applications
-- working with PHP and scala to create reusable libraries for internal APIs
+- working with PHP, javascript and scala to create reusable libraries for internal APIs
 
 ### Junior Software Developer contract for IBM - 2011 to 2013
 
