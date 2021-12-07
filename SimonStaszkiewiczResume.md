@@ -16,9 +16,9 @@ For the latest version of this document, please visit the [Github repo](https://
 Most comfortable with javascript, then python, then bash for scripting.
 Familiar with java, kotlin and go.
 Ansible, terraform, cloudformation, hashicorp vault and packer for infrastructure as code and configuration management.
-Docker as a container run-time environment and some experience with kubernetes and EKS.
+Docker, EKS, and writing helm charts for deploying to k8s.
 Git and subversion for source control.
-Comfortable with EC2, VPC, S3, IAM, DynamoDB, Lambda, SQS, SNS and more.
+Comfortable with EC2, VPC, S3, IAM, DynamoDB, Lambda, SQS, SNS, Control Tower, SSO, Organizations, EventBridge, CloudTrail, CloudWatch and many more.
 
 ## Experience
 
@@ -27,10 +27,13 @@ Comfortable with EC2, VPC, S3, IAM, DynamoDB, Lambda, SQS, SNS and more.
 - hired as a software developer to develop a django app then moved to devops role shortly after starting
 - selected Jenkins for CI and grew Jenkins servers from 0 to 2000 builds a day
 - used terraform and ansible to launch first cloud app as primary SRE
-- now migrating that app to kubernetes
+- now migrating that app and a few other apps to EKS, writing helm charts for deployment
 - designed and developed automation in ansible used to deploy flagship application over 20,000 times in the past year
 - designed and wrote an internal Vue/Node application used daily by about 80% of the organization to self-manage
   various AWS services such as EC2 and S3, view billing information and manage vault secrets
+- implemented a zero trust network solution to give remote consultants secure access to our various AWS regions
+- implemented AWS Control Tower and Account Factory for Terraform to create customized sandbox accounts for development teams
+- spearheading the creation of an internal RFC process to promote technical collaboration across the organization
 
 ### Software Developer at Electronic Arts - September 2013 to June 2016
 
