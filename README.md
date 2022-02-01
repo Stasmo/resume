@@ -1,6 +1,6 @@
 # Simon Staszkiewicz Résumé
 
-[![Build Status](https://app.travis-ci.com/Stasmo/resume.svg?branch=master)](https://app.travis-ci.com/Stasmo/resume.svg?branch=master)
+[![Build Status](https://app.travis-ci.com/Stasmo/resume.svg?branch=master)](https://app.travis-ci.com/github/Stasmo/resume)
 
 View the latest version [here](https://github.com/Stasmo/resume/blob/master/SimonStaszkiewiczResume.md).
 
