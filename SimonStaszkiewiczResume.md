@@ -16,20 +16,31 @@ For the latest version of this document, please visit the [Github repo](https://
 ### Programming Languages
 
 I've written a few small and medium-sized apps in `JavaScript` and `TypeScript` and contributed to some large projects.
+
 I've written a bunch of smalls apps in `Python` and worked as a full-time Python developer for a short time.
+
 I've written a lot of tiny `Bash` scripts. I think if your bash script is over 100 lines long you should rewrite it in a modern programming language.
+
 I've taken courses and wrote some small programs in `Kotlin` and `Go`. Interested in learning more `Go`.
+
 I used to write a lot of `PHP`, but it's been a while and the language has evolved a bit since 5.6.
+
 I wrote a small game for my Xbox in `C#` a long time ago.
+
 I've written a few `Groovy` scripts for Jenkins in the past too.
+
 I've been doing a lot of `Arduino` and `MicroPython` projects lately.
 
 ### Tools
 
 Working with `Kubernetes` since 2020. I have created and managed a production cluster and worked with developers to create helm charts and migrate their applications.
+
 I know `Ansible`, `Terraform`, `CloudFormation`, `Hashicorp Vault` and `Packer` for infrastructure as code and configuration management.
+
 I've been using `Docker` since 2016 and I think I'm pretty good with it.
+
 I've been using `git` since 2010 and it still intimidates me.
+
 Comfortable with `EC2`, `VPC`, `S3`, `IAM`, `DynamoDB`, `RDS`, `ECS`, `ELB`, `Lambda`, `SQS`, `SNS`, `Control Tower`, `SSO`, `Organizations`, `EventBridge`, `CloudTrail`, `CloudWatch`, `Glue`, `Athena`, `LakeFormation` and more.
 
 ## Experience
