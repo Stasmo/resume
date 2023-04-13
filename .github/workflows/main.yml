@@ -28,12 +28,6 @@ jobs:
           role-session-name: github-resume-job
           aws-region: us-west-2
 
-      - name: Check for files
-        run: ls -la
-
-      - name: Checkout
-        uses: actions/checkout@v3
-
       - name: Setup node
         uses: actions/setup-node@v3
         with:
