@@ -25,10 +25,8 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: converted-files
-          path: |
-            SimonStaszkiewiczResume.docx
-            SimonStaszkiewiczResume.html
-            SimonStaszkiewiczResume.zip
+          path: SimonStaszkiewiczResume.*
+
   push:
     runs-on: [self-hosted]
     needs: convert
