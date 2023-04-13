@@ -1,8 +1,8 @@
 name: 'Build and push to S3'
 
-# **What it does**: Renders the content of every page and check all internal links.
-# **Why we have it**: To make sure all links connect correctly.
-# **Who does it impact**: Docs content.
+# **What it does**: Converts README to docx and pushes to S3.
+# **Why we have it**: Recruiters want files and not links to Github.
+# **Who does it impact**: My career.
 
 on: [push]
 
@@ -19,8 +19,9 @@ jobs:
 
       - name: Convert docs
         run: ./pandoc.sh
-  build:
+  push:
     runs-on: ubuntu-latest
+    needs: convert
     steps:
 
       - name: Checkout
