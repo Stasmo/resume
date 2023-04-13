@@ -19,10 +19,24 @@ jobs:
 
       - name: Convert docs
         run: ./pandoc.sh
+
+      - name: Upload output files
+        uses: actions/upload-artifact@v3
+        with:
+          name: converted-files
+          path: |
+            SimonStaszkiewiczResume.docx
+            SimonStaszkiewiczResume.html
+            SimonStaszkiewiczResume.zip
   push:
     runs-on: ubuntu-latest
     needs: convert
     steps:
+
+      - name: Download output files
+        uses: actions/download-artifact@v3
+        with:
+          name: converted-files
 
       - name: Checkout
         uses: actions/checkout@v3
