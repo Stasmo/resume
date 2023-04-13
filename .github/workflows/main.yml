@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   convert:
-    runs-on: pandoc/latex:2.6
+    runs-on: [self-hosted]
     steps:
 
       - name: Checkout
@@ -30,7 +30,7 @@ jobs:
             SimonStaszkiewiczResume.html
             SimonStaszkiewiczResume.zip
   push:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted]
     needs: convert
     steps:
 
