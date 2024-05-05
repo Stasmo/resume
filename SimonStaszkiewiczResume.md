@@ -2,9 +2,9 @@ Simon Staszkiewicz
 ===
 
 - [Latest Version](#latest-version)
+- [Background](#background)
+- [Languages and Tech](#languages-and-tech)
 - [Experience](#experience)
-- [Programming Languages](#programming-languages)
-- [Tools](#tools)
 - [Education](#education)
 - [Contact](#contact)
 
@@ -14,7 +14,11 @@ For the latest version of this document, please visit the [Github repo](https://
 
 ## Background
 
-I went to school for networking and systems administration. I switched careers to software development
+I went to school for networking and systems administration and worked as a sys admin for 2 years.
+I switched careers to software development and worked as a full-time developer for 6 years.
+As the industry shifted towards DevOps, my experience in operations and software development naturally
+pulled me towards cloud technologies and DevOps work. I've been working with AWS and DevOps practices for 7 years
+now and I really enjoy it. It's like building things with Lego all day.
 
 ## Languages and Tech
 
