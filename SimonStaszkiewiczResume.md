@@ -1,7 +1,7 @@
 Simon Staszkiewicz
 ===
 
-- [Latest Version](#)
+- [Latest Version](#latest-version)
 - [Experience](#experience)
 - [Programming Languages](#programming-languages)
 - [Tools](#tools)
@@ -11,6 +11,10 @@ Simon Staszkiewicz
 ## Latest Version
 
 For the latest version of this document, please visit the [Github repo](https://github.com/Stasmo/resume).
+
+## Background
+
+I went to school for networking and systems administration. I switched careers to software development
 
 ## Languages and Tech
 
@@ -32,13 +36,13 @@ I've been doing a lot of `Arduino` and `MicroPython` for hobby robotics projects
 
 ### Tools
 
-Working with `Kubernetes` since 2020. I have created and managed a production cluster and worked with developers to create helm charts and migrate their applications.
+Working with `Kubernetes` since 2020. I have created and managed a production cluster and worked with developers to create helm charts and migrate their applications. I set up my own cluster at home on Raspberry Pis. It's a fantastic technology for scaling and redundancy.
 
 I know `Ansible`, `Terraform`, `CloudFormation`, `Hashicorp Vault` and `Packer` for infrastructure as code and configuration management.
 
 I've been using `Docker` since 2016 and I think I'm pretty good with it.
 
-I've been using `git` since 2010 and it still intimidates me.
+I've been using `git` since 2010 and I still have so much to learn.
 
 Comfortable with `EC2`, `VPC`, `S3`, `IAM`, `DynamoDB`, `RDS`, `ECS`, `ELB`, `Lambda`, `SQS`, `SNS`, `Control Tower`, `SSO`, `Organizations`, `EventBridge`, `CloudTrail`, `CloudWatch`, `Glue`, `Athena`, `LakeFormation` and more.
 
