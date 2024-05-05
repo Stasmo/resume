@@ -3,7 +3,8 @@ Simon Staszkiewicz
 
 - [Latest Version](#)
 - [Experience](#experience)
-- [Skills and tools](#skills-and-tools)
+- [Programming Languages](#programming-languages)
+- [Tools](#tools)
 - [Education](#education)
 - [Contact](#contact)
 
@@ -15,21 +16,19 @@ For the latest version of this document, please visit the [Github repo](https://
 
 ### Programming Languages
 
-I've written a few small and medium-sized apps in `JavaScript` and `TypeScript` and contributed to some large projects.
+I've written quite a bit of `JavaScript` and `TypeScript` over the past 15 years, including frontend and backend applications. This is by far my strongest language.
 
-I've written a bunch of smalls apps in `Python` and worked as a full-time Python developer for a short time.
+I've written a bunch of smalls apps in `Python` and worked as a full-time Python developer for a short time, but I wouldn't feel comfortable starting a large project from scratch. I mostly use Python for scripts that are too complex to do in Bash.
 
-I've written a lot of tiny `Bash` scripts. I think if your bash script is over 100 lines long you should rewrite it in a modern programming language.
+I've written quite a few `Bash` scripts and did some simple training presentations to teach Bash best practices.
 
-I've taken courses and wrote some small programs in `Kotlin` and `Go`. Interested in learning more `Go`.
+I've taken courses and written some small programs in `Kotlin` and `Go`.
 
 I used to write a lot of `PHP`, but it's been a while and the language has evolved a bit since 5.6.
 
-I wrote a small game for my Xbox in `C#` a long time ago.
+I've written a few `Groovy` scripts for Jenkins too, but never dived in very deep into the Jenkins Java API.
 
-I've written a few `Groovy` scripts for Jenkins in the past too.
-
-I've been doing a lot of `Arduino` and `MicroPython` projects lately.
+I've been doing a lot of `Arduino` and `MicroPython` for hobby robotics projects lately.
 
 ### Tools
 
@@ -47,29 +46,33 @@ Comfortable with `EC2`, `VPC`, `S3`, `IAM`, `DynamoDB`, `RDS`, `ECS`, `ELB`, `La
 
 ### Senior DevOps Engineer - March 2022 to today
 
-- took an ownership role for the AWS infrastructure and security and implemented best practices for managing infrastructure
-- created a secure, scalable, and generally nice-to-work-with production `EKS` cluster and worked with developers to create helm charts and migrate applications to `EKS` with a hard deadline, and no unplanned outages
-- established a multi-account AWS Organization with role-based security policies and strong boundaries using AWS SSO and Control Tower
-- reorganized infrastructure as code (`Terraform`) with SOLID principles and I created most of the modules and patterns that we use to create new infrastructure
-- secured our private cloud networks with a zero trust network solution
-- helped to rationalize and reduce the ever-growing AWS bill
+- took over ownership for the entire AWS infrastructure, about $120,000/mo worth of resources.
+- created a secure, scalable, and generally nice-to-work-with production `EKS` cluster, worked with developers to create helm charts for their apps, migrate all of our applications from Heroku to `EKS` with a hard deadline, no unplanned outages, and a single planned maintenance time of 40 minutes to migrate state
+- established a multi-account AWS Organization with role-based security policies and strong security boundaries using AWS SSO and Control Tower, integrating with our Google IDP and removing all user IAM access keys, cleaned up privilege escalation paths in IAM policies and replaced overly permissive access keys in CI with assumable roles using OIDC auth
+- reorganized infrastructure as code (`Terraform`) with SOLID principles and created most of the modules and patterns that we use to create new infrastructure
+- secured our private cloud networks with a zero trust network solution, providing private access to all of our AWS infrastructure with VPC peering, smart routing, individual and group permissions and network grants, integrated with our Google IDP
+- rationalized and reduced the ever-growing AWS bill, implemented budgets and alerts, reduced our AWS bill from $120,000 a month to $70,000 by spotting redundancies and opportunities for cost optimization, and implementing zero-downtime cost-savings solutions, specifically:
+  - better CloudFront caching policies
+  - S3 lifecycle policies
+  - EC2 autoscaling and spot instances
+  - savings plans
 
 ### Software Developer, Senior DevOps Specialist, Automation Practice Lead at Copperleaf - June 2016 to February 2022
 
-- hired as a software developer to develop a Django app then moved to devops role 2 months after starting
-- selected `Jenkins` for CI and grew the servers from 0 to 2000 builds a day, owning the infrastructure
+- hired as a software developer to develop a Django app then moved to devops role
+- implemented a private `Jenkins` cluster for CI and grew the cluster from 0 to 2000 builds a day, owning the infrastructure
 - used Terraform and Ansible to launch first cloud app as primary SRE
-- now migrating that app and a few other apps to `EKS`, writing `Helm` charts for deployment
-- designed and developed automation in `Ansible` used to deploy flagship application over 20,000 times in the past year
-- designed and developed an internal `Vue`/`Node` application used daily by about 80% of the organization to self-manage various `AWS` services such as EC2 and S3, view billing information and manage vault secrets
+- migrated some apps `EKS`, writing `Helm` charts for deployment
+- designed and developed automation in `Ansible` used to deploy flagship Windows application over 20,000 times a year
+- designed and developed an internal `Vue`/`Node` application used daily by about 80% of the organization to automate deployments, view billing information and manage vault secrets
 - deployed and managed a zero trust network solution to give remote consultants secure access to our internal tools from almost anywhere in the world
 - implemented AWS Control Tower and Account Factory for `Terraform` to create customized sandbox accounts for development teams and production workloads
 - founded and drove the creation of an internal RFC process to promote technical collaboration across the organization
 
 ### Software Developer at Electronic Arts - September 2013 to June 2016
 
-- I started as a test engineer focusing on the quality of the codebase. I wrote unit tests, integration tests and e2e tests. I implemented static code analysis tools
-- I joined the web development core team a year later
+- started as a test engineer focusing on the quality of the codebase, wrote unit tests, integration tests and e2e tests, implemented static code analysis tools
+- joined the web development core team supporting the rest of the product teams
 - working with `PHP`, `JavaScript` and `Scala` to create libraries for internal APIs
 
 ### Junior Software Developer contract for IBM - 2011 to 2013
@@ -79,7 +82,7 @@ Comfortable with `EC2`, `VPC`, `S3`, `IAM`, `DynamoDB`, `RDS`, `ECS`, `ELB`, `La
 ### IT Manager at BST Management - 2008 to 2010
 
 - hired as the only technical person to manage all IT infrastructure for an organization of 100+ people
-- responsible for `Exchange Server`, `MSSQL Server`, internal application servers, file servers, `Netware` server
+- responsible for `Exchange Server`, `MSSQL Server`, internal application servers, file servers, `Netware` server, layer 3 switches
 - responsible for all workstations and printers, phone system, fleet of cell phones for drivers, everything
 
 ## Education
@@ -90,4 +93,4 @@ Comfortable with `EC2`, `VPC`, `S3`, `IAM`, `DynamoDB`, `RDS`, `ECS`, `ELB`, `La
 
 Email: simon@staszkiewicz.ca
 
-Phone: 604 729 9654
+Phone: 604-729-9654
