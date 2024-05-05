@@ -64,6 +64,8 @@ Comfortable with `EC2`, `VPC`, `S3`, `IAM`, `DynamoDB`, `RDS`, `ECS`, `ELB`, `La
   - S3 lifecycle policies
   - EC2 autoscaling and spot instances
   - savings plans
+- partnered with the data team to simplify and standardize training and deploying GPU accelerated models and creating ETL pipelines
+
 
 ### Software Developer, Senior DevOps Specialist, Automation Practice Lead at Copperleaf - June 2016 to February 2022
 
