@@ -65,6 +65,9 @@ Comfortable with `EC2`, `VPC`, `S3`, `IAM`, `DynamoDB`, `RDS`, `ECS`, `ELB`, `La
   - EC2 autoscaling and spot instances
   - savings plans
 - partnered with the data team to simplify and standardize training and deploying GPU accelerated models and creating ETL pipelines
+  - building custom SageMaker containers
+  - deploying and monitoring workloads to SageMaker and EKS
+  - custom, durable, scalable pipelines for database replication, transformation and prep for training
 
 
 ### Software Developer, Senior DevOps Specialist, Automation Practice Lead at Copperleaf - June 2016 to February 2022
